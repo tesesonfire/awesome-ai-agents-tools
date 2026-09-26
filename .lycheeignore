@@ -1,0 +1,9 @@
+# Links excluded from automated checking.
+#
+# One regular expression per line. These are NOT broken links; they are
+# endpoints that GitHub Actions runners cannot reliably validate.
+#
+# ampcode.com: serves HTTP/2 correctly in normal use (verified manually, 200),
+# but lychee intermittently fails the HTTP/2 handshake from GitHub runners with
+# "HTTP/2 protocol error. Server may not support HTTP/2 properly".
+https://ampcode\.com/
