@@ -1,112 +1,114 @@
-# 贡献指南
+# Contributing
 
-感谢你愿意为本列表贡献力量。本文档说明收录标准、条目格式与提交流程，目标是在保持信息准确的前提下，让列表长期可维护。
+Thank you for wanting to contribute to this list. This document explains the inclusion criteria, entry format, and submission process, with the goal of keeping the list accurate and maintainable over time.
 
-## 你可以贡献什么
+## What You Can Contribute
 
-- **新增工具**：收录尚未出现在列表中的 AI Agent 工具。
-- **更新条目**：修正失效链接、过时描述、平台支持或价格模式。
-- **调整分类**：指出条目归属不当的情况。
-- **改进文档**：修正错别字、链接锚点或表格渲染问题。
+- **New tools**: add an AI Agent tool that is not yet listed.
+- **Entry updates**: fix broken links, outdated descriptions, platform support, or pricing.
+- **Category fixes**: point out entries that are filed under the wrong category.
+- **Documentation improvements**: fix typos, broken anchors, or table rendering issues.
 
-## 收录标准
+## Inclusion Criteria
 
-一个工具要被收录，需要同时满足以下条件：
+A tool must meet all of the following to be listed:
 
-1. **与 AI Agent 直接相关**：工具本身能够驱动、承载、编排或支撑 Agent 完成任务。仅调用 LLM API 做文本生成的普通聊天客户端不予收录。
-2. **可公开访问**：具备可访问的官方主页或公开仓库，无需邀请码或私有授权即可了解其功能。
-3. **处于可用状态**：有公开版本或可安装的使用方式，且近期有维护痕迹，不接受已废弃或仅停留在概念阶段的项目。
-4. **描述可验证**：一句话描述中的事实应当能从官方文档、仓库 README 或产品页面直接核实。
-5. **非营销性质**：不接受返利链接、推广链接、纯营销落地页或带有引流导向的提交。
+1. **Directly related to AI Agents**: the tool itself drives, hosts, orchestrates, or supports an agent in completing tasks. Plain chat clients that only call an LLM API to generate text are not accepted.
+2. **Publicly accessible**: an accessible official homepage or public repository, with functionality that can be understood without an invite code or private authorization.
+3. **Usable today**: a public release or installable form of use, with signs of recent maintenance. Abandoned or concept-stage-only projects are not accepted.
+4. **Verifiable description**: the facts in the one-sentence description must be directly checkable against official documentation, the repository README, or the product page.
+5. **Non-promotional**: affiliate links, referral links, pure marketing landing pages, and traffic-driven submissions are not accepted.
 
-以下情况会被拒绝：
+The following will be rejected:
 
-- 无法验证真实性或来源不明的项目。
-- 描述中含有「最好」「最强」「第一」等主观营销词汇。
-- 链接指向聚合页、下载站或第三方镜像，而非官方来源。
-- 与列表中已有条目功能完全重复，且无差异化信息。
+- Projects of unverifiable authenticity or unclear origin.
+- Descriptions containing subjective marketing terms such as "best", "most powerful", or "number one".
+- Links pointing to aggregator pages, download sites, or third-party mirrors rather than official sources.
+- Entries functionally identical to an existing entry with no differentiating information.
 
-## 条目格式
+## Entry Format
 
-每个条目占一行，严格遵循以下格式：
-
-```markdown
-- [工具名称](https://github.com/owner/repo#readme) - 一句话客观描述。平台：平台列表。价格：价格模式。 `[Platform]` `[Price]`
-```
-
-规则说明：
-
-- **链接**：优先使用 GitHub 仓库链接，并以 `#readme` 结尾。若项目为闭源商业产品，可使用官方产品页链接。
-- **描述**：首字母大写，以句号结尾；一句话说清这是做什么的，不堆砌功能列表。
-- **平台与价格**：使用 `平台：` 和 `价格：` 前缀，与列表中既有条目保持一致的写法。
-- **标签**：可选，从 README 的「标签说明」表格中选取，反引号包裹，置于行尾。
-
-示例：
+Each entry occupies one line and strictly follows this format:
 
 ```markdown
-- [Crush](https://github.com/charmbracelet/crush#readme) - Charm 出品的终端编码 Agent，支持多模型切换与 LSP 集成。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
+- [Tool Name](https://github.com/owner/repo#readme) - One-sentence objective description. Platforms: platform list. Pricing: pricing model. `[Platform]` `[Price]`
 ```
 
-## 分类归属
+Rules:
 
-条目应归入最贴合其**主要使用方式**的单一分类，不要在多处重复登记：
+- **Link**: prefer the GitHub repository link, ending with `#readme`. For closed-source commercial products, the official product page may be used.
+- **Description**: sentence case, ending with a period; explain in one sentence what the tool does without piling up feature lists.
+- **Platforms and pricing**: use the `Platforms:` and `Pricing:` prefixes, matching the wording style of existing entries.
+- **Tags**: optional, chosen from the Tag Legend table in the README, wrapped in backticks, placed at the end of the line.
 
-| 分类 | 适用对象 |
+Example:
+
+```markdown
+- [Crush](https://github.com/charmbracelet/crush#readme) - A terminal coding agent from Charm with multi-model switching and LSP integration. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
+```
+
+## Category Placement
+
+An entry belongs in the single category that best matches its **primary mode of use**. Do not list the same tool in multiple places:
+
+| Category | Applies to |
 | :--- | :--- |
-| 官方 Agent 工具 | 由模型或平台厂商官方发布和维护 |
-| 第三方 Agent 工具 | 社区或独立团队构建的通用 Agent |
-| IDE 集成与插件 | 以编辑器扩展或图形界面为主要形态 |
-| Agent 框架与 SDK | 供开发者编写代码构建 Agent |
-| 多 Agent 编排工具 | 协调多个 Agent 或可视化编排流水线 |
-| 工具与实用程序 | 上下文、用量观测、工具接入等配套能力 |
+| Official Agent Tools | Published and maintained by a model or platform vendor |
+| Third-Party Agent Tools | General-purpose agents from communities or independent teams |
+| IDE Integrations and Extensions | Primarily editor extensions or graphical interfaces |
+| Agent Frameworks and SDKs | For developers building agents in code |
+| Multi-Agent Orchestration | Coordinating multiple agents or visually orchestrating pipelines |
+| Tools and Utilities | Context, usage observability, tool access, and supporting capabilities |
 
-同一分类内部按名称字母顺序排列。
+Within a category, entries are ordered alphabetically by name.
 
-## 提交前检查清单
+## Pre-Submission Checklist
 
-提交 Pull Request 之前，请逐项确认：
+Before opening a pull request, confirm each item:
 
-- [ ] 我已在浏览器中打开新增的链接，确认可以正常访问且内容与描述相符。
-- [ ] 链接指向官方来源，GitHub 链接以 `#readme` 结尾。
-- [ ] 描述客观中立，没有使用「最好」「最强」等营销词汇，且以句号结尾。
-- [ ] 平台支持与价格模式信息准确，与官方说明一致。
-- [ ] 条目归入了最合适的单一分类，且分类内保持字母顺序。
-- [ ] 已在本地渲染 README，确认新增条目格式正确、表格未错位。
-- [ ] 新增工具在列表中尚不存在，未造成重复条目。
-- [ ] 若修改了章节标题，已同步更新 README 顶部的目录链接。
-- [ ] 已同时更新 [README.md](README.md) 与 [README.zh-CN.md](README.zh-CN.md)，两个文件的条目与链接保持一致。
+- [ ] I opened the newly added link in a browser and confirmed it loads and matches the description.
+- [ ] The link points to an official source, and GitHub links end with `#readme`.
+- [ ] The description is objective, free of marketing terms such as "best", and ends with a period.
+- [ ] Platform support and pricing information is accurate and consistent with official documentation.
+- [ ] The entry is filed under the single most appropriate category, maintaining alphabetical order.
+- [ ] I rendered the README locally and confirmed the new entry is well-formed and the tables are not misaligned.
+- [ ] The tool is not already present in the list, introducing no duplicate entry.
+- [ ] If I changed a section heading, I updated the table of contents links at the top of the README.
+- [ ] I updated both [README.md](README.md) and [README.zh-CN.md](README.zh-CN.md) so the entries and links stay in sync.
 
-## 提交流程
+## Submission Process
 
-1. 先搜索已有的 Issue 和 Pull Request，避免重复提交。
-2. Fork 本仓库，并在新分支上进行修改。
-3. 提交 Pull Request，并在描述中说明新增或修改的内容与理由。
-4. 如条目存在争议，维护者可能会要求补充官方来源或使用证据。
+1. Search existing issues and pull requests first to avoid duplicates.
+2. Fork this repository and make your changes on a new branch.
+3. Open a pull request describing what you added or changed and why.
+4. If an entry is disputed, maintainers may ask for official sources or evidence of use.
 
-## 更新周期
+## Maintenance Cycle
 
-维护者会定期检查链接有效性与项目维护状态：
+Maintainers periodically check link validity and project maintenance status:
 
-- 链接失效且无法找到官方替代地址的条目会被移除。
-- 连续较长时间无更新且已被官方标记为废弃的项目，会在描述中注明或移出列表。
+- Entries whose links are broken with no official replacement available will be removed.
+- Projects with no updates for a long period that are officially marked as deprecated will be annotated in the description or removed from the list.
 
-## 多语言说明
+## Languages
 
-本仓库维护两个语言版本的列表，内容必须保持一致：
+This repository maintains the list in two languages, and their content must stay consistent:
 
-| 文件 | 语言 |
+| File | Language |
 | :--- | :--- |
-| [README.md](README.md) | 英文（默认展示） |
-| [README.zh-CN.md](README.zh-CN.md) | 简体中文 |
+| [README.md](README.md) | English (default) |
+| [README.zh-CN.md](README.zh-CN.md) | Simplified Chinese |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | English (default) |
+| [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) | Simplified Chinese |
 
-新增或修改条目时，**请同时更新这两个文件**，保持条目名称、链接、平台与价格信息完全一致，仅翻译描述文本。CI 会检查两个文件的链接有效性。
+When adding or changing an entry, **please update both README files**, keeping the entry name, link, platform, and pricing information identical and translating only the description text. CI checks link validity across both files.
 
-Issue 与 Pull Request 使用中文或英文提交均可。
+Issues and pull requests are welcome in either English or Chinese.
 
-## 行为准则
+## Code of Conduct
 
-请保持友善与专业。讨论聚焦于工具本身的事实与适用场景，避免针对个人、团队或产品的攻击性言论。
+Please stay friendly and professional. Discussion should focus on the facts about the tools and their use cases, avoiding attacks on individuals, teams, or products.
 
-## 许可证
+## License
 
-向本仓库提交贡献，即表示你同意你的贡献以 [CC0 1.0 Universal](LICENSE) 协议发布。
+By contributing to this repository, you agree that your contribution is released under the [CC0 1.0 Universal](LICENSE) license.

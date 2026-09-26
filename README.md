@@ -131,7 +131,7 @@ Supporting tools that supply agents with context, tool access, usage observabili
 
 ## Contributing
 
-Contributions of new tools and corrections to existing entries are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting, as it documents the entry format, inclusion criteria, and checklist.
+Contributions of new tools and corrections to existing entries are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting, as it documents the entry format, inclusion criteria, and checklist. A [Simplified Chinese version](CONTRIBUTING.zh-CN.md) is also available.
 
 - New tools should come with an official repository link and a one-sentence objective description.
 - Marketing-oriented, unverifiable, or unmaintained projects are not accepted.

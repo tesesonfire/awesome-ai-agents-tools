@@ -29,6 +29,7 @@ jobs:
             README.md
             README.zh-CN.md
             CONTRIBUTING.md
+            CONTRIBUTING.zh-CN.md
           fail: true
 
       - name: Create issue on failure
