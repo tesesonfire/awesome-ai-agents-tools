@@ -1,9 +1,14 @@
 # Links excluded from automated checking.
 #
 # One regular expression per line. These are NOT broken links; they are
-# endpoints that GitHub Actions runners cannot reliably validate.
+# endpoints that GitHub Actions runners cannot reliably validate. Each was
+# confirmed reachable (HTTP 200) from a normal machine before being listed.
 #
-# ampcode.com: serves HTTP/2 correctly in normal use (verified manually, 200),
-# but lychee intermittently fails the HTTP/2 handshake from GitHub runners with
+# ampcode.com: serves HTTP/2 correctly in normal use, but lychee intermittently
+# fails the HTTP/2 handshake from GitHub runners with
 # "HTTP/2 protocol error. Server may not support HTTP/2 properly".
 https://ampcode\.com/
+#
+# codebuddy.ai (Tencent CodeBuddy): returns HTTP 200 from normal networks, but
+# the host is unreachable from GitHub-hosted runners, which time out after 45s.
+https://www\.codebuddy\.ai/
