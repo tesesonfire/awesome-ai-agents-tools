@@ -1,0 +1,14 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node (tooling for local link checks)
+node_modules/
+npm-debug.log*
+
+# Local lychee cache
+.lychee/
+lychee/

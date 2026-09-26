@@ -1,0 +1,40 @@
+name: Check links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Run every Monday at 00:00 UTC to catch link rot.
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    name: Validate links in Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,206,429
+            --max-retries 3
+            --timeout 30
+            README.md
+            README.zh-CN.md
+            CONTRIBUTING.md
+          fail: true
+
+      - name: Create issue on failure
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 失效链接检测失败
+          content-filepath: ./lychee/out.md
+          labels: link-rot
