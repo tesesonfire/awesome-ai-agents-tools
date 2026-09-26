@@ -167,6 +167,49 @@
       "open_source": false
     },
     {
+      "name": "AstrBot",
+      "category": "third-party",
+      "vendor": "Community",
+      "url": "https://github.com/AstrBotDevs/AstrBot#readme",
+      "latest_release": "https://github.com/AstrBotDevs/AstrBot#readme/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true
+    },
+    {
+      "name": "Cherry Studio",
+      "category": "third-party",
+      "vendor": "CherryHQ",
+      "url": "https://github.com/CherryHQ/cherry-studio#readme",
+      "latest_release": "https://github.com/CherryHQ/cherry-studio#readme/releases",
+      "platforms": [
+        "Desktop"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true
+    },
+    {
+      "name": "Codewhale (DeepSeek-TUI)",
+      "category": "third-party",
+      "vendor": "Community",
+      "url": "https://github.com/Hmbown/Codewhale#readme",
+      "latest_release": "https://github.com/Hmbown/Codewhale#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Crush",
       "category": "third-party",
       "vendor": "Charm",
@@ -198,6 +241,21 @@
       "open_source": true
     },
     {
+      "name": "Hermes",
+      "category": "third-party",
+      "vendor": "Nous Research",
+      "url": "https://github.com/NousResearch/hermes-agent#readme",
+      "latest_release": "https://github.com/NousResearch/hermes-agent#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Live Agent",
       "category": "third-party",
       "vendor": "Stack Cairn",
@@ -214,11 +272,42 @@
       "open_source": true
     },
     {
+      "name": "LobeHub",
+      "category": "third-party",
+      "vendor": "LobeHub",
+      "url": "https://github.com/lobehub/lobehub#readme",
+      "latest_release": "https://github.com/lobehub/lobehub#readme/releases",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Oh My Pi",
       "category": "third-party",
       "vendor": "Community",
       "url": "https://github.com/can1357/oh-my-pi#readme",
       "latest_release": "https://github.com/can1357/oh-my-pi#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
+      "name": "OpenClaw",
+      "category": "third-party",
+      "vendor": "Community",
+      "url": "https://github.com/openclaw/openclaw#readme",
+      "latest_release": "https://github.com/openclaw/openclaw#readme/releases",
       "platforms": [
         "CLI"
       ],
@@ -276,6 +365,21 @@
       "open_source": true
     },
     {
+      "name": "Reasonix",
+      "category": "third-party",
+      "vendor": "Community",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix#readme",
+      "latest_release": "https://github.com/esengine/DeepSeek-Reasonix#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Cline",
       "category": "ide",
       "vendor": "Cline",
@@ -323,6 +427,22 @@
       "open_source": false
     },
     {
+      "name": "Deep Code",
+      "category": "ide",
+      "vendor": "Community",
+      "url": "https://github.com/lessweb/deepcode-cli#readme",
+      "latest_release": "https://github.com/lessweb/deepcode-cli#readme/releases",
+      "platforms": [
+        "CLI",
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Kilo Code",
       "category": "ide",
       "vendor": "Kilo",
@@ -339,6 +459,37 @@
       "open_source": true
     },
     {
+      "name": "Langcli",
+      "category": "ide",
+      "vendor": "Langcli",
+      "url": "https://github.com/LangcliTeam/langcli#readme",
+      "latest_release": "https://github.com/LangcliTeam/langcli#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": true
+    },
+    {
+      "name": "Qoder",
+      "category": "ide",
+      "vendor": "Qoder",
+      "url": "https://qoder.com/",
+      "platforms": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": false
+    },
+    {
       "name": "Roo Code",
       "category": "ide",
       "vendor": "Roo Code",
@@ -352,6 +503,21 @@
         "Paid"
       ],
       "open_source": true
+    },
+    {
+      "name": "WorkBuddy/CodeBuddy",
+      "category": "ide",
+      "vendor": "Tencent",
+      "url": "https://www.codebuddy.ai/",
+      "platforms": [
+        "Desktop",
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
+      "open_source": false
     },
     {
       "name": "Zed",
@@ -548,6 +714,20 @@
       "open_source": true
     },
     {
+      "name": "Awesome MCP Servers",
+      "category": "utilities",
+      "vendor": "Community",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers#readme",
+      "latest_release": "https://github.com/punkpeye/awesome-mcp-servers#readme/releases",
+      "platforms": [
+        "MCP"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true
+    },
+    {
       "name": "ccusage",
       "category": "utilities",
       "vendor": "Community",
@@ -627,20 +807,6 @@
       "latest_release": "https://github.com/winfunc/opcode#readme/releases",
       "platforms": [
         "Desktop"
-      ],
-      "pricing": [
-        "Free"
-      ],
-      "open_source": true
-    },
-    {
-      "name": "Awesome MCP Servers",
-      "category": "utilities",
-      "vendor": "Community",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers#readme",
-      "latest_release": "https://github.com/punkpeye/awesome-mcp-servers#readme/releases",
-      "platforms": [
-        "MCP"
       ],
       "pricing": [
         "Free"

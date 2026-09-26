@@ -16,31 +16,40 @@
 
 ## Contents
 
-- [精选工具速览](#精选工具速览)
-- [官方 Agent 工具](#官方-agent-工具)
-- [第三方 Agent 工具](#第三方-agent-工具)
-- [IDE 集成与插件](#ide-集成与插件)
 - [Agent 框架与 SDK](#agent-框架与-sdk)
+- [IDE 集成与插件](#ide-集成与插件)
 - [多 Agent 编排工具](#多-agent-编排工具)
+- [官方 Agent 工具](#官方-agent-工具)
 - [工具与实用程序](#工具与实用程序)
 - [标签说明](#标签说明)
-- [贡献](#贡献)
+- [第三方 Agent 工具](#第三方-agent-工具)
+- [精选工具速览](#精选工具速览)
 - [许可证](#许可证)
+- [贡献](#贡献)
 
 ## 精选工具速览
 
-> 本表为快速索引，只收录各分类中维护活跃、使用广泛的代表项目。版本号与发布日期通过 [Shields.io](https://shields.io) 从各仓库最新 Release 实时读取，因此会随上游自动更新。未在 GitHub 上发布正式版本的仓库可能显示 `no releases`；对于仅发布预发布版本的仓库（如 DeepSeek Harness），已启用 `include_prereleases` 参数。
+> 本表为快速索引，收录各分类中维护活跃、使用广泛的代表项目，并已覆盖 DeepSeek 官方 Agent 接入列表中的全部工具。版本号通过 [Shields.io](https://shields.io) 从各仓库最新 Release 实时读取，因此会随上游自动更新；对于仅发布预发布版本的仓库（如 DeepSeek Harness），已启用 `include_prereleases` 参数。「最近发布」一列取最新正式版本：24 小时内发布的显示 `24h内`，更早的显示具体日期，格式为 `MM-DD`。
 
-| 工具 | 发布页 | 最新版本 | 最近发布 | 出品方 | 形态 | 价格 |
+| 工具 | 最新版本 | 最近发布 | 出品方 | 形态 | 价格 | 发布页 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Codex** | [发布页](https://github.com/openai/codex/releases) | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | 开源客户端 / 订阅 |
-| **Claude Code** | [发布页](https://github.com/anthropics/claude-code/releases) | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | 商业 / 订阅 |
-| **Kimi Code** | [发布页](https://github.com/MoonshotAI/kimi-code/releases) | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | 免费 + 订阅 |
-| **DeepSeek Harness** | [发布页](https://github.com/deepseek-ai/deepseek-harness/releases) | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | 开源 |
-| **Oh My Pi** | [发布页](https://github.com/can1357/oh-my-pi/releases) | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | 社区 | CLI | 开源 |
-| **OpenCode** | [发布页](https://github.com/anomalyco/opencode/releases) | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | 开源 |
-| **Gemini CLI** | [发布页](https://github.com/google-gemini/gemini-cli/releases) | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | 免费额度 + 开源 |
-| **GitHub Copilot** | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | 免费额度 + 订阅 |
+| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | 24h内 | OpenAI | CLI / IDE | 开源客户端 / 订阅 | [发布页](https://github.com/openai/codex/releases) |
+| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | 24h内 | Anthropic | CLI / IDE | 商业 / 订阅 | [发布页](https://github.com/anthropics/claude-code/releases) |
+| **Kimi Code** | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | 09-24 | Moonshot AI | CLI | 免费 + 订阅 | [发布页](https://github.com/MoonshotAI/kimi-code/releases) |
+| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | 09-24 | DeepSeek | CLI / Web | 开源 | [发布页](https://github.com/deepseek-ai/deepseek-harness/releases) |
+| **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=blue) | 09-22 | Earendil Works | CLI | 开源 | [发布页](https://github.com/earendil-works/pi/releases) |
+| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | 24h内 | 社区 | CLI | 开源 | [发布页](https://github.com/can1357/oh-my-pi/releases) |
+| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | 09-21 | Anomaly | CLI / Web | 开源 | [发布页](https://github.com/anomalyco/opencode/releases) |
+| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | 09-23 | Google | CLI | 免费额度 + 开源 | [发布页](https://github.com/google-gemini/gemini-cli/releases) |
+| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | 04-07 | GitHub | IDE / CLI | 免费额度 + 订阅 | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) |
+| **AstrBot** | ![Version](https://img.shields.io/github/v/release/AstrBotDevs/AstrBot?label=&color=blue) | 09-14 | 社区 | Web / 聊天平台 | 开源 | [发布页](https://github.com/AstrBotDevs/AstrBot/releases) |
+| **Cherry Studio** | ![Version](https://img.shields.io/github/v/release/CherryHQ/cherry-studio?label=&color=blue) | 09-24 | CherryHQ | 桌面端 | 开源 | [发布页](https://github.com/CherryHQ/cherry-studio/releases) |
+| **Codewhale（DeepSeek-TUI）** | ![Version](https://img.shields.io/github/v/release/Hmbown/Codewhale?label=&color=blue) | 09-22 | 社区 | CLI | 开源 | [发布页](https://github.com/Hmbown/Codewhale/releases) |
+| **Hermes** | ![Version](https://img.shields.io/github/v/release/NousResearch/hermes-agent?label=&color=blue) | 09-24 | Nous Research | CLI | 开源 | [发布页](https://github.com/NousResearch/hermes-agent/releases) |
+| **LobeHub** | ![Version](https://img.shields.io/github/v/release/lobehub/lobehub?label=&color=blue) | 09-20 | LobeHub | Web / 桌面端 | 开源 | [发布页](https://github.com/lobehub/lobehub/releases) |
+| **OpenClaw** | ![Version](https://img.shields.io/github/v/release/openclaw/openclaw?label=&color=blue) | 09-23 | 社区 | CLI / 聊天平台 | 开源 | [发布页](https://github.com/openclaw/openclaw/releases) |
+| **Deep Code** | ![Version](https://img.shields.io/github/v/release/lessweb/deepcode-cli?label=&color=blue) | 09-17 | 社区 | CLI / IDE | 开源 | [发布页](https://github.com/lessweb/deepcode-cli/releases) |
+| **Reasonix** | ![Version](https://img.shields.io/github/v/release/esengine/DeepSeek-Reasonix?label=&color=blue) | 24h内 | 社区 | CLI | 开源 | [发布页](https://github.com/esengine/DeepSeek-Reasonix/releases) |
 
 ## 官方 Agent 工具
 
@@ -61,13 +70,20 @@
 
 - [Aider](https://github.com/Aider-AI/aider#readme) - 终端中的 AI 结对编程工具，支持 Git 仓库感知与自动提交。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Amp](https://ampcode.com/) - Sourcegraph 推出的 Agent 化编码工具，提供 CLI 与编辑器扩展。平台：CLI、VS Code。价格：商业订阅，提供免费额度。 `[CLI]` `[IDE]` `[Free Tier]` `[Paid]`
+- [AstrBot](https://github.com/AstrBotDevs/AstrBot#readme) - 开源 Agent 助手与开发框架，可接入多种消息平台、LLM、插件与 MCP。平台：Web、自托管。价格：开源免费。 `[Web]` `[Free]` `[Open Source]`
+- [Cherry Studio](https://github.com/CherryHQ/cherry-studio#readme) - 开源跨平台桌面 AI 客户端，内置智能对话、自主 Agent、知识库与 300+ 助手。平台：桌面端。价格：开源免费。 `[Desktop]` `[Free]` `[Open Source]`
+- [Codewhale (DeepSeek-TUI)](https://github.com/Hmbown/Codewhale#readme) - Rust 编写的终端编码 Agent，采用 Codex 风格架构，提供沙箱化工具、MCP 客户端与服务端以及大上下文支持。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Crush](https://github.com/charmbracelet/crush#readme) - Charm 出品的终端编码 Agent，支持多模型切换与 LSP 集成，界面由 TUI 组件库构建。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Goose](https://github.com/aaif-goose/goose#readme) - 开源可扩展 Agent，除代码建议外还能安装、执行与测试，支持通过 MCP 扩展能力。平台：CLI、桌面端。价格：开源免费，模型按用量计费。 `[CLI]` `[Desktop]` `[Free]` `[Open Source]`
+- [Hermes](https://github.com/NousResearch/hermes-agent#readme) - Nous Research 推出的开源自我进化 AI Agent。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Live Agent](https://github.com/Stack-Cairn/LiveAgent#readme) - 功能完整的 AI Agent 桌面客户端，支持 WebUI 远程访问和自定义扩展。平台：桌面端、Web。价格：开源免费，模型按用量计费。 `[Desktop]` `[Web]` `[Free]` `[Open Source]`
+- [LobeHub](https://github.com/lobehub/lobehub#readme) - Agent 运营平台，通过招聘、排班与汇报将多个 Agent 组织成 7×24 小时运作。平台：Web、桌面端。价格：开源免费，托管服务提供免费额度。 `[Web]` `[Desktop]` `[Free Tier]` `[Open Source]`
 - [Oh My Pi](https://github.com/can1357/oh-my-pi#readme) - 基于 Pi 分支演进的终端编码 Agent，增加专用工具、模型角色、MCP、插件与工作流能力。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
+- [OpenClaw](https://github.com/openclaw/openclaw#readme) - 开源个人 AI 助手，可接入各类聊天平台，并通过 Skill 扩展能力。平台：CLI、自托管。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [OpenCode](https://github.com/anomalyco/opencode#readme) - 开源编码 Agent，提供终端界面，并有 Web 等多种形态。平台：CLI、Web。价格：开源免费，模型按用量计费。 `[CLI]` `[Web]` `[Free]` `[Open Source]`
 - [OpenHands](https://github.com/OpenHands/OpenHands#readme) - 开源 AI 开发 Agent，可自主编写代码、执行命令、浏览网页并提交变更。平台：Web、CLI、云端。价格：开源免费，云端托管为付费服务。 `[Web]` `[CLI]` `[Free]` `[Paid]` `[Open Source]`
 - [Pi](https://github.com/earendil-works/pi#readme) - 极简且可扩展的终端编码框架，支持树状会话结构与自定义模型提供商。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
+- [Reasonix](https://github.com/esengine/DeepSeek-Reasonix#readme) - DeepSeek 原生的终端编码 Agent，围绕前缀缓存稳定性设计，原生支持 MCP。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 
 ## IDE 集成与插件
 
@@ -76,8 +92,12 @@
 - [Cline](https://github.com/cline/cline#readme) - VS Code 中的自主编码 Agent，同时以 SDK 和编辑器扩展形式提供，支持多家模型提供商。平台：VS Code、JetBrains。价格：开源免费，模型按用量计费。 `[IDE]` `[Free]` `[Open Source]`
 - [Continue](https://github.com/continuedev/continue#readme) - 开源编码 Agent，可在 IDE 中构建自定义补全、对话与编辑体验。平台：VS Code、JetBrains。价格：开源免费，模型按用量计费。 `[IDE]` `[Free]` `[Open Source]`
 - [Cursor](https://cursor.com/) - 基于 VS Code 分支构建的 AI 优先代码编辑器，内置 Agent 模式与代码库索引。平台：桌面端、CLI、Web。价格：商业订阅，提供免费额度。 `[Desktop]` `[IDE]` `[Free Tier]` `[Paid]`
+- [Deep Code](https://github.com/lessweb/deepcode-cli#readme) - 专为 DeepSeek-V4 系列模型优化的终端 AI 编码助手，支持深度思考、推理强度控制与 Agent Skills。平台：CLI、VS Code。价格：开源免费，模型按用量计费。 `[CLI]` `[IDE]` `[Free]` `[Open Source]`
 - [Kilo Code](https://github.com/Kilo-Org/kilocode#readme) - 一体化 Agent 化工程平台，以编辑器扩展和 CLI 形式提供。平台：VS Code、JetBrains、CLI。价格：开源免费，模型按用量计费。 `[IDE]` `[CLI]` `[Free]` `[Open Source]`
+- [Langcli](https://github.com/LangcliTeam/langcli#readme) - 开源 AI 编程助手，兼容 Claude Code 配置并支持主流 LLM 模型。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
+- [Qoder](https://qoder.com/) - 提供 IDE、CLI 与 JetBrains 插件三种形态的 Agentic Coding 产品，内置模型并支持接入自定义 API 密钥。平台：桌面端、CLI、JetBrains。价格：商业订阅，提供免费额度。 `[Desktop]` `[CLI]` `[IDE]` `[Free Tier]` `[Paid]`
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code#readme) - VS Code 扩展，通过可配置的多种模式让 Agent 承担不同开发角色。平台：VS Code。价格：开源免费，模型按用量计费。 `[IDE]` `[Free]` `[Open Source]`
+- [WorkBuddy/CodeBuddy](https://www.codebuddy.ai/) - 腾讯推出的 AI Agent 与编程助手，支持通过配置文件接入自定义 OpenAI 兼容模型。平台：桌面端、IDE。价格：商业订阅，提供免费额度。 `[Desktop]` `[IDE]` `[Free Tier]` `[Paid]`
 - [Zed](https://github.com/zed-industries/zed#readme) - 高性能多人协作编辑器，内置 Agent 面板与外部 Agent 接入能力。平台：桌面端。价格：编辑器开源免费，Agent 功能按订阅提供。 `[Desktop]` `[Free]` `[Paid]` `[Open Source]`
 
 ## Agent 框架与 SDK

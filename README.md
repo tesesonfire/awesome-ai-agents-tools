@@ -16,31 +16,40 @@ Each entry follows the same shape: a link, an objective description, supported p
 
 ## Contents
 
-- [Featured Tools](#featured-tools)
-- [Official Agent Tools](#official-agent-tools)
-- [Third-Party Agent Tools](#third-party-agent-tools)
-- [IDE Integrations and Extensions](#ide-integrations-and-extensions)
 - [Agent Frameworks and SDKs](#agent-frameworks-and-sdks)
-- [Multi-Agent Orchestration](#multi-agent-orchestration)
-- [Tools and Utilities](#tools-and-utilities)
-- [Tag Legend](#tag-legend)
 - [Contributing](#contributing)
+- [Featured Tools](#featured-tools)
+- [IDE Integrations and Extensions](#ide-integrations-and-extensions)
 - [License](#license)
+- [Multi-Agent Orchestration](#multi-agent-orchestration)
+- [Official Agent Tools](#official-agent-tools)
+- [Tag Legend](#tag-legend)
+- [Third-Party Agent Tools](#third-party-agent-tools)
+- [Tools and Utilities](#tools-and-utilities)
 
 ## Featured Tools
 
-> A quick index of widely used, actively maintained projects across all categories. Version numbers and release dates are read live from each repository's latest GitHub release via [Shields.io](https://shields.io), so they track upstream automatically. Repositories without formal GitHub releases may show `no releases`; for those that publish only pre-releases (such as DeepSeek Harness), the `include_prereleases` parameter is enabled.
+> A quick index of widely used, actively maintained projects, including every tool from the DeepSeek agent integration list. Version badges are read live from each repository's latest GitHub release via [Shields.io](https://shields.io), so they track upstream automatically; for projects that publish only pre-releases (such as DeepSeek Harness), the `include_prereleases` parameter is enabled. The Released column reflects the latest stable release: releases within the past 24 hours show `within 24h`, and anything older shows the specific date as `MM-DD`.
 
-| Tool | Releases | Latest version | Released | Vendor | Form | Pricing |
+| Tool | Latest version | Released | Vendor | Form | Pricing | Releases |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Codex** | [Releases](https://github.com/openai/codex/releases) | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | Open-source client / Subscription |
-| **Claude Code** | [Releases](https://github.com/anthropics/claude-code/releases) | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | Commercial / Subscription |
-| **Kimi Code** | [Releases](https://github.com/MoonshotAI/kimi-code/releases) | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | Free tier + Subscription |
-| **DeepSeek Harness** | [Releases](https://github.com/deepseek-ai/deepseek-harness/releases) | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | Open source |
-| **Oh My Pi** | [Releases](https://github.com/can1357/oh-my-pi/releases) | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | Community | CLI | Open source |
-| **OpenCode** | [Releases](https://github.com/anomalyco/opencode/releases) | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | Open source |
-| **Gemini CLI** | [Releases](https://github.com/google-gemini/gemini-cli/releases) | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | Free tier + Open source |
-| **GitHub Copilot** | [Releases](https://github.com/microsoft/vscode-copilot-chat/releases) | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | Free tier + Subscription |
+| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | within 24h | OpenAI | CLI / IDE | Open-source client / Subscription | [Releases](https://github.com/openai/codex/releases) |
+| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | within 24h | Anthropic | CLI / IDE | Commercial / Subscription | [Releases](https://github.com/anthropics/claude-code/releases) |
+| **Kimi Code** | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | 09-24 | Moonshot AI | CLI | Free tier + Subscription | [Releases](https://github.com/MoonshotAI/kimi-code/releases) |
+| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | 09-24 | DeepSeek | CLI / Web | Open source | [Releases](https://github.com/deepseek-ai/deepseek-harness/releases) |
+| **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=blue) | 09-22 | Earendil Works | CLI | Open source | [Releases](https://github.com/earendil-works/pi/releases) |
+| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | within 24h | Community | CLI | Open source | [Releases](https://github.com/can1357/oh-my-pi/releases) |
+| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | 09-21 | Anomaly | CLI / Web | Open source | [Releases](https://github.com/anomalyco/opencode/releases) |
+| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | 09-23 | Google | CLI | Free tier + Open source | [Releases](https://github.com/google-gemini/gemini-cli/releases) |
+| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | 04-07 | GitHub | IDE / CLI | Free tier + Subscription | [Releases](https://github.com/microsoft/vscode-copilot-chat/releases) |
+| **AstrBot** | ![Version](https://img.shields.io/github/v/release/AstrBotDevs/AstrBot?label=&color=blue) | 09-14 | Community | Web / IM | Open source | [Releases](https://github.com/AstrBotDevs/AstrBot/releases) |
+| **Cherry Studio** | ![Version](https://img.shields.io/github/v/release/CherryHQ/cherry-studio?label=&color=blue) | 09-24 | CherryHQ | Desktop | Open source | [Releases](https://github.com/CherryHQ/cherry-studio/releases) |
+| **Codewhale (DeepSeek-TUI)** | ![Version](https://img.shields.io/github/v/release/Hmbown/Codewhale?label=&color=blue) | 09-22 | Community | CLI | Open source | [Releases](https://github.com/Hmbown/Codewhale/releases) |
+| **Hermes** | ![Version](https://img.shields.io/github/v/release/NousResearch/hermes-agent?label=&color=blue) | 09-24 | Nous Research | CLI | Open source | [Releases](https://github.com/NousResearch/hermes-agent/releases) |
+| **LobeHub** | ![Version](https://img.shields.io/github/v/release/lobehub/lobehub?label=&color=blue) | 09-20 | LobeHub | Web / Desktop | Open source | [Releases](https://github.com/lobehub/lobehub/releases) |
+| **OpenClaw** | ![Version](https://img.shields.io/github/v/release/openclaw/openclaw?label=&color=blue) | 09-23 | Community | CLI / IM | Open source | [Releases](https://github.com/openclaw/openclaw/releases) |
+| **Deep Code** | ![Version](https://img.shields.io/github/v/release/lessweb/deepcode-cli?label=&color=blue) | 09-17 | Community | CLI / IDE | Open source | [Releases](https://github.com/lessweb/deepcode-cli/releases) |
+| **Reasonix** | ![Version](https://img.shields.io/github/v/release/esengine/DeepSeek-Reasonix?label=&color=blue) | within 24h | Community | CLI | Open source | [Releases](https://github.com/esengine/DeepSeek-Reasonix/releases) |
 
 ## Official Agent Tools
 
@@ -61,13 +70,20 @@ General-purpose agents built by communities or independent teams that work with 
 
 - [Aider](https://github.com/Aider-AI/aider#readme) - AI pair programming in your terminal, with Git repository awareness and automatic commits. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 - [Amp](https://ampcode.com/) - An agentic coding tool from Sourcegraph, available as a CLI and editor extension. Platforms: CLI, VS Code. Pricing: Commercial subscription with a free tier. `[CLI]` `[IDE]` `[Free Tier]` `[Paid]`
+- [AstrBot](https://github.com/AstrBotDevs/AstrBot#readme) - An open-source agent assistant and development framework that integrates messaging platforms, LLMs, plugins, and MCP. Platforms: Web, Self-hosted. Pricing: Free and open source. `[Web]` `[Free]` `[Open Source]`
+- [Cherry Studio](https://github.com/CherryHQ/cherry-studio#readme) - An open-source cross-platform desktop AI client with smart chat, autonomous agents, a knowledge base, and 300+ assistants. Platforms: Desktop. Pricing: Free and open source. `[Desktop]` `[Free]` `[Open Source]`
+- [Codewhale (DeepSeek-TUI)](https://github.com/Hmbown/Codewhale#readme) - A Rust terminal coding agent built around a Codex-style architecture, with sandboxed tools, an MCP client and server, and large context support. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 - [Crush](https://github.com/charmbracelet/crush#readme) - A terminal coding agent from Charm with multi-model switching and LSP integration, built on a TUI component library. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 - [Goose](https://github.com/aaif-goose/goose#readme) - An open-source, extensible agent that goes beyond code suggestions to install, execute, and test, extensible through MCP. Platforms: CLI, Desktop. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Desktop]` `[Free]` `[Open Source]`
+- [Hermes](https://github.com/NousResearch/hermes-agent#readme) - An open-source self-improving AI agent from Nous Research. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 - [Live Agent](https://github.com/Stack-Cairn/LiveAgent#readme) - A full-featured AI agent desktop client with WebUI remote access and customizable extensions. Platforms: Desktop, Web. Pricing: Free and open source; model usage billed by consumption. `[Desktop]` `[Web]` `[Free]` `[Open Source]`
+- [LobeHub](https://github.com/lobehub/lobehub#readme) - An agent operations platform that organizes agents into round-the-clock workflows through hiring, scheduling, and reporting. Platforms: Web, Desktop. Pricing: Free and open source; hosted service offers a free tier. `[Web]` `[Desktop]` `[Free Tier]` `[Open Source]`
 - [Oh My Pi](https://github.com/can1357/oh-my-pi#readme) - A terminal coding agent evolved from a Pi fork, adding dedicated tools, model roles, MCP, plugins, and workflows. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
+- [OpenClaw](https://github.com/openclaw/openclaw#readme) - An open-source personal AI assistant that plugs into chat platforms and is extensible through skills. Platforms: CLI, Self-hosted. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 - [OpenCode](https://github.com/anomalyco/opencode#readme) - An open-source coding agent with a terminal interface and additional forms such as web. Platforms: CLI, Web. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Web]` `[Free]` `[Open Source]`
 - [OpenHands](https://github.com/OpenHands/OpenHands#readme) - An open-source AI development agent that can write code, run commands, browse the web, and submit changes autonomously. Platforms: Web, CLI, Cloud. Pricing: Free and open source; hosted cloud is a paid service. `[Web]` `[CLI]` `[Free]` `[Paid]` `[Open Source]`
 - [Pi](https://github.com/earendil-works/pi#readme) - A minimal, extensible terminal coding harness with tree-structured sessions and custom model providers. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
+- [Reasonix](https://github.com/esengine/DeepSeek-Reasonix#readme) - A DeepSeek-native terminal coding agent engineered around prefix-cache stability, with native MCP support. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 
 ## IDE Integrations and Extensions
 
@@ -76,8 +92,12 @@ Agent tools that run as editor or IDE extensions, with a graphical interface as 
 - [Cline](https://github.com/cline/cline#readme) - An autonomous coding agent in VS Code, also available as an SDK, supporting multiple model providers. Platforms: VS Code, JetBrains. Pricing: Free and open source; model usage billed by consumption. `[IDE]` `[Free]` `[Open Source]`
 - [Continue](https://github.com/continuedev/continue#readme) - An open-source coding agent for building custom completion, chat, and edit experiences in the IDE. Platforms: VS Code, JetBrains. Pricing: Free and open source; model usage billed by consumption. `[IDE]` `[Free]` `[Open Source]`
 - [Cursor](https://cursor.com/) - An AI-first code editor built on a VS Code fork, with built-in agent mode and codebase indexing. Platforms: Desktop, CLI, Web. Pricing: Commercial subscription with a free tier. `[Desktop]` `[IDE]` `[Free Tier]` `[Paid]`
+- [Deep Code](https://github.com/lessweb/deepcode-cli#readme) - A terminal AI coding assistant optimized for DeepSeek-V4 models, supporting deep thinking, reasoning-effort control, and Agent Skills. Platforms: CLI, VS Code. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[IDE]` `[Free]` `[Open Source]`
 - [Kilo Code](https://github.com/Kilo-Org/kilocode#readme) - An all-in-one agentic engineering platform available as editor extensions and a CLI. Platforms: VS Code, JetBrains, CLI. Pricing: Free and open source; model usage billed by consumption. `[IDE]` `[CLI]` `[Free]` `[Open Source]`
+- [Langcli](https://github.com/LangcliTeam/langcli#readme) - An open-source coding assistant compatible with Claude Code configuration and supporting mainstream LLM providers. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
+- [Qoder](https://qoder.com/) - An agentic coding product available as an IDE, CLI, and JetBrains plugin, with built-in models and custom API key support. Platforms: Desktop, CLI, JetBrains. Pricing: Commercial subscription with a free tier. `[Desktop]` `[CLI]` `[IDE]` `[Free Tier]` `[Paid]`
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code#readme) - A VS Code extension that assigns the agent different development roles through configurable modes. Platforms: VS Code. Pricing: Free and open source; model usage billed by consumption. `[IDE]` `[Free]` `[Open Source]`
+- [WorkBuddy/CodeBuddy](https://www.codebuddy.ai/) - An AI agent and coding assistant from Tencent that supports custom OpenAI-compatible model configuration. Platforms: Desktop, IDE. Pricing: Commercial subscription with a free tier. `[Desktop]` `[IDE]` `[Free Tier]` `[Paid]`
 - [Zed](https://github.com/zed-industries/zed#readme) - A high-performance collaborative editor with a built-in agent panel and support for external agents. Platforms: Desktop. Pricing: Editor is free and open source; agent features require a subscription. `[Desktop]` `[Free]` `[Paid]` `[Open Source]`
 
 ## Agent Frameworks and SDKs
