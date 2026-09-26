@@ -78,6 +78,7 @@
 - [Hermes](https://github.com/NousResearch/hermes-agent#readme) - Nous Research 推出的开源自我进化 AI Agent。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Live Agent](https://github.com/Stack-Cairn/LiveAgent#readme) - 功能完整的 AI Agent 桌面客户端，支持 WebUI 远程访问和自定义扩展。平台：桌面端、Web。价格：开源免费，模型按用量计费。 `[Desktop]` `[Web]` `[Free]` `[Open Source]`
 - [LobeHub](https://github.com/lobehub/lobehub#readme) - Agent 运营平台，通过招聘、排班与汇报将多个 Agent 组织成 7×24 小时运作。平台：Web、桌面端。价格：开源免费，托管服务提供免费额度。 `[Web]` `[Desktop]` `[Free Tier]` `[Open Source]`
+- [nanobot](https://github.com/HKUDS/nanobot#readme) - 超轻量自托管个人 AI Agent 框架，内置 WebUI、工具、记忆、MCP、多 Agent 工作流与聊天应用接入。平台：Web、自托管。价格：开源免费。 `[Web]` `[Free]` `[Open Source]`
 - [Oh My Pi](https://github.com/can1357/oh-my-pi#readme) - 基于 Pi 分支演进的终端编码 Agent，增加专用工具、模型角色、MCP、插件与工作流能力。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [OpenClaw](https://github.com/openclaw/openclaw#readme) - 开源个人 AI 助手，可接入各类聊天平台，并通过 Skill 扩展能力。平台：CLI、自托管。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [OpenCode](https://github.com/anomalyco/opencode#readme) - 开源编码 Agent，提供终端界面，并有 Web 等多种形态。平台：CLI、Web。价格：开源免费，模型按用量计费。 `[CLI]` `[Web]` `[Free]` `[Open Source]`

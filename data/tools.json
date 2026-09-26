@@ -288,6 +288,20 @@
       "open_source": true
     },
     {
+      "name": "nanobot",
+      "category": "third-party",
+      "vendor": "HKUDS",
+      "url": "https://github.com/HKUDS/nanobot#readme",
+      "latest_release": "https://github.com/HKUDS/nanobot/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true
+    },
+    {
       "name": "Oh My Pi",
       "category": "third-party",
       "vendor": "Community",
