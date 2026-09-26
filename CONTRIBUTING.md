@@ -1,3 +1,5 @@
+[English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING.zh-CN.md)
+
 # Contributing
 
 Thank you for wanting to contribute to this list. This document explains the inclusion criteria, entry format, and submission process, with the goal of keeping the list accurate and maintainable over time.
@@ -111,4 +113,4 @@ Please stay friendly and professional. Discussion should focus on the facts abou
 
 ## License
 
-By contributing to this repository, you agree that your contribution is released under the [CC0 1.0 Universal](LICENSE) license.
+By contributing to this repository, you agree that your contribution is released under the [MIT](LICENSE) license.

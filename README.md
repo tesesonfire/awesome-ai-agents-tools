@@ -31,16 +31,16 @@ Each entry follows the same shape: a link, an objective description, supported p
 
 > A quick index of widely used, actively maintained projects across all categories. Version numbers and release dates are read live from each repository's latest GitHub release via [Shields.io](https://shields.io), so they track upstream automatically. Repositories without formal GitHub releases may show `no releases`; for those that publish only pre-releases (such as DeepSeek Harness), the `include_prereleases` parameter is enabled.
 
-| Tool | Latest version | Released | Vendor | Form | Pricing |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | Open-source client / Subscription |
-| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | Commercial / Subscription |
-| **Kimi Code** | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | Free tier + Subscription |
-| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | Open source |
-| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | Community | CLI | Open source |
-| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | Open source |
-| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | Free tier + Open source |
-| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | Free tier + Subscription |
+| Tool | Releases | Latest version | Released | Vendor | Form | Pricing |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Codex** | [Releases](https://github.com/openai/codex/releases) | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | Open-source client / Subscription |
+| **Claude Code** | [Releases](https://github.com/anthropics/claude-code/releases) | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | Commercial / Subscription |
+| **Kimi Code** | [Releases](https://github.com/MoonshotAI/kimi-code/releases) | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | Free tier + Subscription |
+| **DeepSeek Harness** | [Releases](https://github.com/deepseek-ai/deepseek-harness/releases) | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | Open source |
+| **Oh My Pi** | [Releases](https://github.com/can1357/oh-my-pi/releases) | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | Community | CLI | Open source |
+| **OpenCode** | [Releases](https://github.com/anomalyco/opencode/releases) | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | Open source |
+| **Gemini CLI** | [Releases](https://github.com/google-gemini/gemini-cli/releases) | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | Free tier + Open source |
+| **GitHub Copilot** | [Releases](https://github.com/microsoft/vscode-copilot-chat/releases) | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | Free tier + Subscription |
 
 ## Official Agent Tools
 
@@ -139,4 +139,4 @@ Contributions of new tools and corrections to existing entries are welcome. Plea
 
 ## License
 
-This project is released under [CC0 1.0 Universal](LICENSE). You may freely copy, modify, and distribute this list without attribution.
+This project is released under the [MIT](LICENSE) license. You may freely use, modify, and distribute this list, provided the copyright and license notices are retained.

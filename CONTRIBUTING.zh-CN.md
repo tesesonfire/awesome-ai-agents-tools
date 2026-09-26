@@ -113,4 +113,4 @@ Issue 与 Pull Request 使用中文或英文提交均可。
 
 ## 许可证
 
-向本仓库提交贡献，即表示你同意你的贡献以 [CC0 1.0 Universal](LICENSE) 协议发布。
+向本仓库提交贡献，即表示你同意你的贡献以 [MIT](LICENSE) 许可证发布。

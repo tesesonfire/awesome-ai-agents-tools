@@ -23,8 +23,14 @@
       "category": "official",
       "vendor": "Anthropic",
       "url": "https://github.com/anthropics/claude-code#readme",
-      "platforms": ["CLI", "IDE"],
-      "pricing": ["Paid"],
+      "latest_release": "https://github.com/anthropics/claude-code#readme/releases",
+      "platforms": [
+        "CLI",
+        "IDE"
+      ],
+      "pricing": [
+        "Paid"
+      ],
       "open_source": false
     },
     {
@@ -32,8 +38,14 @@
       "category": "official",
       "vendor": "OpenAI",
       "url": "https://github.com/openai/codex#readme",
-      "platforms": ["CLI", "IDE"],
-      "pricing": ["Paid"],
+      "latest_release": "https://github.com/openai/codex#readme/releases",
+      "platforms": [
+        "CLI",
+        "IDE"
+      ],
+      "pricing": [
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -41,8 +53,14 @@
       "category": "official",
       "vendor": "DeepSeek",
       "url": "https://github.com/deepseek-ai/deepseek-harness#readme",
-      "platforms": ["CLI", "Web"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/deepseek-ai/deepseek-harness#readme/releases",
+      "platforms": [
+        "CLI",
+        "Web"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -50,8 +68,13 @@
       "category": "official",
       "vendor": "Google",
       "url": "https://github.com/google-gemini/gemini-cli#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier"],
+      "latest_release": "https://github.com/google-gemini/gemini-cli#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier"
+      ],
       "open_source": true
     },
     {
@@ -59,8 +82,14 @@
       "category": "official",
       "vendor": "GitHub",
       "url": "https://github.com/microsoft/vscode-copilot-chat#readme",
-      "platforms": ["IDE"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/microsoft/vscode-copilot-chat#readme/releases",
+      "platforms": [
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -68,8 +97,13 @@
       "category": "official",
       "vendor": "GitHub",
       "url": "https://github.com/github/copilot-cli#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Paid"],
+      "latest_release": "https://github.com/github/copilot-cli#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Paid"
+      ],
       "open_source": false
     },
     {
@@ -77,8 +111,14 @@
       "category": "official",
       "vendor": "Moonshot AI",
       "url": "https://github.com/MoonshotAI/kimi-code#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/MoonshotAI/kimi-code#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -86,8 +126,14 @@
       "category": "official",
       "vendor": "Alibaba Qwen",
       "url": "https://github.com/QwenLM/qwen-code#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/QwenLM/qwen-code#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -95,8 +141,14 @@
       "category": "third-party",
       "vendor": "Aider AI",
       "url": "https://github.com/Aider-AI/aider#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/Aider-AI/aider#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -104,8 +156,14 @@
       "category": "third-party",
       "vendor": "Sourcegraph",
       "url": "https://ampcode.com/",
-      "platforms": ["CLI", "IDE"],
-      "pricing": ["Free Tier", "Paid"],
+      "platforms": [
+        "CLI",
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": false
     },
     {
@@ -113,8 +171,14 @@
       "category": "third-party",
       "vendor": "Charm",
       "url": "https://github.com/charmbracelet/crush#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/charmbracelet/crush#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -122,8 +186,15 @@
       "category": "third-party",
       "vendor": "Block",
       "url": "https://github.com/aaif-goose/goose#readme",
-      "platforms": ["CLI", "Desktop"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/aaif-goose/goose#readme/releases",
+      "platforms": [
+        "CLI",
+        "Desktop"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -131,8 +202,15 @@
       "category": "third-party",
       "vendor": "Stack Cairn",
       "url": "https://github.com/Stack-Cairn/LiveAgent#readme",
-      "platforms": ["Desktop", "Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/Stack-Cairn/LiveAgent#readme/releases",
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -140,8 +218,14 @@
       "category": "third-party",
       "vendor": "Community",
       "url": "https://github.com/can1357/oh-my-pi#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/can1357/oh-my-pi#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -149,8 +233,15 @@
       "category": "third-party",
       "vendor": "Anomaly",
       "url": "https://github.com/anomalyco/opencode#readme",
-      "platforms": ["CLI", "Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/anomalyco/opencode#readme/releases",
+      "platforms": [
+        "CLI",
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -158,8 +249,15 @@
       "category": "third-party",
       "vendor": "OpenHands",
       "url": "https://github.com/OpenHands/OpenHands#readme",
-      "platforms": ["Web", "CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/OpenHands/OpenHands#readme/releases",
+      "platforms": [
+        "Web",
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -167,8 +265,14 @@
       "category": "third-party",
       "vendor": "Earendil Works",
       "url": "https://github.com/earendil-works/pi#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/earendil-works/pi#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -176,8 +280,14 @@
       "category": "ide",
       "vendor": "Cline",
       "url": "https://github.com/cline/cline#readme",
-      "platforms": ["IDE"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/cline/cline#readme/releases",
+      "platforms": [
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -185,8 +295,14 @@
       "category": "ide",
       "vendor": "Continue",
       "url": "https://github.com/continuedev/continue#readme",
-      "platforms": ["IDE"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/continuedev/continue#readme/releases",
+      "platforms": [
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -194,8 +310,16 @@
       "category": "ide",
       "vendor": "Anysphere",
       "url": "https://cursor.com/",
-      "platforms": ["Desktop", "IDE", "CLI", "Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "platforms": [
+        "Desktop",
+        "IDE",
+        "CLI",
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": false
     },
     {
@@ -203,8 +327,15 @@
       "category": "ide",
       "vendor": "Kilo",
       "url": "https://github.com/Kilo-Org/kilocode#readme",
-      "platforms": ["IDE", "CLI"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/Kilo-Org/kilocode#readme/releases",
+      "platforms": [
+        "IDE",
+        "CLI"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -212,8 +343,14 @@
       "category": "ide",
       "vendor": "Roo Code",
       "url": "https://github.com/RooCodeInc/Roo-Code#readme",
-      "platforms": ["IDE"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/RooCodeInc/Roo-Code#readme/releases",
+      "platforms": [
+        "IDE"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -221,8 +358,14 @@
       "category": "ide",
       "vendor": "Zed Industries",
       "url": "https://github.com/zed-industries/zed#readme",
-      "platforms": ["Desktop"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/zed-industries/zed#readme/releases",
+      "platforms": [
+        "Desktop"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -230,8 +373,13 @@
       "category": "frameworks",
       "vendor": "Google",
       "url": "https://github.com/google/adk-python#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/google/adk-python#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -239,8 +387,14 @@
       "category": "frameworks",
       "vendor": "LangChain",
       "url": "https://github.com/langchain-ai/langchain#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/langchain-ai/langchain#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -248,8 +402,14 @@
       "category": "frameworks",
       "vendor": "LangChain",
       "url": "https://github.com/langchain-ai/langgraph#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/langchain-ai/langgraph#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -257,8 +417,14 @@
       "category": "frameworks",
       "vendor": "LlamaIndex",
       "url": "https://github.com/run-llama/llama_index#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/run-llama/llama_index#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -266,8 +432,14 @@
       "category": "frameworks",
       "vendor": "OpenAI",
       "url": "https://github.com/openai/openai-agents-python#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/openai/openai-agents-python#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -275,8 +447,14 @@
       "category": "frameworks",
       "vendor": "Microsoft",
       "url": "https://github.com/microsoft/semantic-kernel#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/microsoft/semantic-kernel#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -284,8 +462,14 @@
       "category": "orchestration",
       "vendor": "Microsoft",
       "url": "https://github.com/microsoft/autogen#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/microsoft/autogen#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -293,8 +477,14 @@
       "category": "orchestration",
       "vendor": "CrewAI",
       "url": "https://github.com/crewAIInc/crewAI#readme",
-      "platforms": ["SDK"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/crewAIInc/crewAI#readme/releases",
+      "platforms": [
+        "SDK"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -302,8 +492,14 @@
       "category": "orchestration",
       "vendor": "LangGenius",
       "url": "https://github.com/langgenius/dify#readme",
-      "platforms": ["Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/langgenius/dify#readme/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -311,8 +507,14 @@
       "category": "orchestration",
       "vendor": "Flowise AI",
       "url": "https://github.com/FlowiseAI/Flowise#readme",
-      "platforms": ["Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/FlowiseAI/Flowise#readme/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -320,8 +522,14 @@
       "category": "orchestration",
       "vendor": "Langflow",
       "url": "https://github.com/langflow-ai/langflow#readme",
-      "platforms": ["Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/langflow-ai/langflow#readme/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -329,8 +537,14 @@
       "category": "orchestration",
       "vendor": "n8n",
       "url": "https://github.com/n8n-io/n8n#readme",
-      "platforms": ["Web"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/n8n-io/n8n#readme/releases",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -338,8 +552,13 @@
       "category": "utilities",
       "vendor": "Community",
       "url": "https://github.com/ccusage/ccusage#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/ccusage/ccusage#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -347,8 +566,13 @@
       "category": "utilities",
       "vendor": "Community",
       "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme",
-      "platforms": ["CLI"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -356,8 +580,14 @@
       "category": "utilities",
       "vendor": "Upstash",
       "url": "https://github.com/upstash/context7#readme",
-      "platforms": ["MCP"],
-      "pricing": ["Free Tier", "Paid"],
+      "latest_release": "https://github.com/upstash/context7#readme/releases",
+      "platforms": [
+        "MCP"
+      ],
+      "pricing": [
+        "Free Tier",
+        "Paid"
+      ],
       "open_source": true
     },
     {
@@ -365,8 +595,14 @@
       "category": "utilities",
       "vendor": "Prefect",
       "url": "https://github.com/PrefectHQ/fastmcp#readme",
-      "platforms": ["SDK", "MCP"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/PrefectHQ/fastmcp#readme/releases",
+      "platforms": [
+        "SDK",
+        "MCP"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -374,8 +610,13 @@
       "category": "utilities",
       "vendor": "Model Context Protocol",
       "url": "https://github.com/modelcontextprotocol/servers#readme",
-      "platforms": ["MCP"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/modelcontextprotocol/servers#readme/releases",
+      "platforms": [
+        "MCP"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -383,8 +624,13 @@
       "category": "utilities",
       "vendor": "winfunc",
       "url": "https://github.com/winfunc/opcode#readme",
-      "platforms": ["Desktop"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/winfunc/opcode#readme/releases",
+      "platforms": [
+        "Desktop"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     },
     {
@@ -392,9 +638,15 @@
       "category": "utilities",
       "vendor": "Community",
       "url": "https://github.com/punkpeye/awesome-mcp-servers#readme",
-      "platforms": ["MCP"],
-      "pricing": ["Free"],
+      "latest_release": "https://github.com/punkpeye/awesome-mcp-servers#readme/releases",
+      "platforms": [
+        "MCP"
+      ],
+      "pricing": [
+        "Free"
+      ],
       "open_source": true
     }
-  ]
+  ],
+  "license": "MIT"
 }

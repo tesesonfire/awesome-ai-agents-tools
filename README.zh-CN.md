@@ -31,16 +31,16 @@
 
 > 本表为快速索引，只收录各分类中维护活跃、使用广泛的代表项目。版本号与发布日期通过 [Shields.io](https://shields.io) 从各仓库最新 Release 实时读取，因此会随上游自动更新。未在 GitHub 上发布正式版本的仓库可能显示 `no releases`；对于仅发布预发布版本的仓库（如 DeepSeek Harness），已启用 `include_prereleases` 参数。
 
-| 工具 | 最新版本 | 最近发布 | 出品方 | 形态 | 价格 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | 开源客户端 / 订阅 |
-| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | 商业 / 订阅 |
-| **Kimi Code** | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | 免费 + 订阅 |
-| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | 开源 |
-| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | 社区 | CLI | 开源 |
-| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | 开源 |
-| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | 免费额度 + 开源 |
-| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | 免费额度 + 订阅 |
+| 工具 | 发布页 | 最新版本 | 最近发布 | 出品方 | 形态 | 价格 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Codex** | [发布页](https://github.com/openai/codex/releases) | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/openai/codex?label=) | OpenAI | CLI / IDE | 开源客户端 / 订阅 |
+| **Claude Code** | [发布页](https://github.com/anthropics/claude-code/releases) | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anthropics/claude-code?label=) | Anthropic | CLI / IDE | 商业 / 订阅 |
+| **Kimi Code** | [发布页](https://github.com/MoonshotAI/kimi-code/releases) | ![Version](https://img.shields.io/github/v/release/MoonshotAI/kimi-code?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/MoonshotAI/kimi-code?label=) | Moonshot AI | CLI | 免费 + 订阅 |
+| **DeepSeek Harness** | [发布页](https://github.com/deepseek-ai/deepseek-harness/releases) | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?include_prereleases&label=&color=blue) | ![Date](https://img.shields.io/github/release-date-pre/deepseek-ai/deepseek-harness?label=) | DeepSeek | CLI / Web | 开源 |
+| **Oh My Pi** | [发布页](https://github.com/can1357/oh-my-pi/releases) | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/can1357/oh-my-pi?label=) | 社区 | CLI | 开源 |
+| **OpenCode** | [发布页](https://github.com/anomalyco/opencode/releases) | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/anomalyco/opencode?label=) | Anomaly | CLI / Web | 开源 |
+| **Gemini CLI** | [发布页](https://github.com/google-gemini/gemini-cli/releases) | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/google-gemini/gemini-cli?label=) | Google | CLI | 免费额度 + 开源 |
+| **GitHub Copilot** | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=blue) | ![Date](https://img.shields.io/github/release-date/microsoft/vscode-copilot-chat?label=) | GitHub | IDE / CLI | 免费额度 + 订阅 |
 
 ## 官方 Agent 工具
 
@@ -139,4 +139,4 @@
 
 ## 许可证
 
-本项目采用 [CC0 1.0 Universal](LICENSE) 公共领域贡献许可协议。你可以自由复制、修改和分发本列表内容，无需署名。
+本项目采用 [MIT](LICENSE) 许可证。你可以自由使用、修改和分发本列表内容，惟须保留版权声明与许可声明。
