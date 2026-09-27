@@ -28,9 +28,9 @@ jobs:
             --retry-wait-time 3
             --timeout 45
             README.md
-            README.zh-CN.md
+            README.en.md
             CONTRIBUTING.md
-            CONTRIBUTING.zh-CN.md
+            CONTRIBUTING.en.md
           fail: true
 
       - name: Create issue on failure

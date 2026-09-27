@@ -107,6 +107,21 @@
       "open_source": false
     },
     {
+      "name": "Grok Build",
+      "category": "official",
+      "vendor": "xAI",
+      "url": "https://github.com/xai-org/grok-build#readme",
+      "latest_release": "https://github.com/xai-org/grok-build#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true,
+      "stars": 27116
+    },
+    {
       "name": "Kimi Code",
       "category": "official",
       "vendor": "Moonshot AI",
@@ -135,6 +150,21 @@
         "Paid"
       ],
       "open_source": true
+    },
+    {
+      "name": "ZCode",
+      "category": "official",
+      "vendor": "Z.ai",
+      "url": "https://github.com/zai-org/ZCode#readme",
+      "latest_release": "https://github.com/zai-org/ZCode#readme/releases",
+      "platforms": [
+        "CLI"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "open_source": true,
+      "stars": 6845
     },
     {
       "name": "Aider",
