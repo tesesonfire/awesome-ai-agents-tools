@@ -12,3 +12,7 @@ https://ampcode\.com/
 # codebuddy.ai (Tencent CodeBuddy): returns HTTP 200 from normal networks, but
 # the host is unreachable from GitHub-hosted runners, which time out after 45s.
 https://www\.codebuddy\.ai/
+#
+# x.ai (Grok Build changelog): not reachable from GitHub runners or from the
+# network this list is maintained on; the URL is cited as given by the vendor.
+https://x\.ai/
