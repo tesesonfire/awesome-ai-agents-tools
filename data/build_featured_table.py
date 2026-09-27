@@ -24,7 +24,8 @@ TIER_OLD = "14532d"  # >30 days
 # Grok Build has no GitHub releases; version/date come from the vendor changelog.
 GROK_CHANGELOG = "https://x.ai/build/changelog"
 GROK_VERSION = "v1.0.40"
-GROK_PUBLISHED = None  # e.g. "2026-09-20" once the changelog date is confirmed
+GROK_PUBLISHED = "2026-09-20T23:48:33Z"  # v1.0.40 publish time, from the npm registry
+                                        # (@xai-official/grok); x.ai itself is unreachable here
 
 # repo, en name, zh name, vendor en, vendor zh, form en, form zh,
 # pricing en, pricing zh, published_at (None = unknown), prerelease
@@ -95,7 +96,7 @@ def build(lang):
         vendor = vzh if zh else ven
         form = fzh if zh else fen
         price = pzh if zh else pen
-        if iso is None:
+        if iso is None:  # Grok Build: no GitHub releases, date from elsewhere
             ver = version_cell(repo, None, False, GROK_VERSION, GROK_CHANGELOG)
             release_href = GROK_CHANGELOG
             label, colour = age_label(GROK_PUBLISHED, zh)
