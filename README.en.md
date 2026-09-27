@@ -42,7 +42,7 @@ Each entry follows the same shape: a link, an objective description, supported p
 | **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=2563eb) | ![4 days ago](https://img.shields.io/static/v1?label=&message=4%20days%20ago&color=22c55e) | Earendil Works | CLI | Open source | [Releases](https://github.com/earendil-works/pi/releases) |
 | **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=2563eb) | ![3 days ago](https://img.shields.io/static/v1?label=&message=3%20days%20ago&color=22c55e) | Google | CLI | Free tier + Open source | [Releases](https://github.com/google-gemini/gemini-cli/releases) |
 | **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=2563eb) | ![within 24h](https://img.shields.io/static/v1?label=&message=within%2024h&color=4ade80) | Community | CLI | Open source | [Releases](https://github.com/can1357/oh-my-pi/releases) |
-| **Grok Build** | [v1.0.40](https://x.ai/build/changelog) | — | xAI | CLI | Open source | [Releases](https://x.ai/build/changelog) |
+| **Grok Build** | [![v1.0.40](https://img.shields.io/static/v1?label=&message=v1.0.40&color=2563eb)](https://x.ai/build/changelog) | — | xAI | CLI | Open source | [Releases](https://x.ai/build/changelog) |
 | **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=2563eb) | ![04-07](https://img.shields.io/static/v1?label=&message=04-07&color=14532d) | GitHub | IDE / CLI | Free tier + Subscription | [Releases](https://github.com/microsoft/vscode-copilot-chat/releases) |
 
 ## Official Agent Tools

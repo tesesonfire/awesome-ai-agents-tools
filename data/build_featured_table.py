@@ -76,9 +76,12 @@ def age_label(iso, zh):
 
 
 def version_cell(repo, iso, prerelease, fallback=None, fallback_href=None):
+    """Version badge. Projects without GitHub releases get a static badge in the
+    same blue so the column stays visually consistent."""
     if iso is None:
         if fallback:
-            return f"[{fallback}]({fallback_href})" if fallback_href else fallback
+            b = badge(fallback, BLUE)
+            return f"[{b}]({fallback_href})" if fallback_href else b
         return "\u2014"
     q = f"?label=&color={BLUE}" + ("&include_prereleases" if prerelease else "")
     return f"![Version](https://img.shields.io/github/v/release/{repo}{q})"

@@ -42,7 +42,7 @@
 | **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=2563eb) | ![4天前](https://img.shields.io/static/v1?label=&message=4%E5%A4%A9%E5%89%8D&color=22c55e) | Earendil Works | CLI | 开源 | [发布页](https://github.com/earendil-works/pi/releases) |
 | **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=2563eb) | ![3天前](https://img.shields.io/static/v1?label=&message=3%E5%A4%A9%E5%89%8D&color=22c55e) | Google | CLI | 免费额度 + 开源 | [发布页](https://github.com/google-gemini/gemini-cli/releases) |
 | **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=2563eb) | ![24h内](https://img.shields.io/static/v1?label=&message=24h%E5%86%85&color=4ade80) | 社区 | CLI | 开源 | [发布页](https://github.com/can1357/oh-my-pi/releases) |
-| **Grok Build** | [v1.0.40](https://x.ai/build/changelog) | — | xAI | CLI | 开源 | [发布页](https://x.ai/build/changelog) |
+| **Grok Build** | [![v1.0.40](https://img.shields.io/static/v1?label=&message=v1.0.40&color=2563eb)](https://x.ai/build/changelog) | — | xAI | CLI | 开源 | [发布页](https://x.ai/build/changelog) |
 | **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=2563eb) | ![04-07](https://img.shields.io/static/v1?label=&message=04-07&color=14532d) | GitHub | IDE / CLI | 免费额度 + 订阅 | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) |
 
 ## 官方 Agent 工具
