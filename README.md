@@ -29,21 +29,21 @@
 
 ## 精选工具速览
 
-> 本表按 GitHub Star 数从高到低排列，只保留各分类中最具代表性的 11 个工具；其余条目见下方分类列表，均按字母顺序排列。版本号通过 [Shields.io](https://shields.io) 从各仓库最新 Release 实时读取，会随上游自动更新；对于仅发布预发布版本的仓库（如 DeepSeek Harness），已启用 `include_prereleases` 参数。「最近发布」取最新正式版本，并以绿色深浅表示新旧：24 小时内为 `24h内`（最亮的绿），1–30 天显示 `N天前`，超过 30 天显示具体日期 `MM-DD`（绿色随发布日期变久逐渐加深）。该列在更新表格时手动重算。
+> 本表按 GitHub Star 数从高到低排列，只保留各分类中最具代表性的 11 个工具；其余条目见下方分类列表，均按字母顺序排列。版本号取自各仓库最新 Release，「最近发布」24 小时内显示 `24h内`、1–30 天显示 `N天前`、超过 30 天显示 `MM-DD`（绿色随发布变久逐渐加深）。
 
-| 工具 | 最新版本 | 最近发布 | 出品方 | 形态 | 价格 | 发布页 |
+| 工具 | 最新版本 | 最近 发布 | 出品方 | 形态 | 价格 | 发布 页 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **OpenClaw** | ![Version](https://img.shields.io/github/v/release/openclaw/openclaw?label=&color=22c55e) | ![3天前](https://img.shields.io/static/v1?label=&message=3%E5%A4%A9%E5%89%8D&color=22c55e) | 社区 | CLI / 聊天平台 | 开源 | [发布页](https://github.com/openclaw/openclaw/releases) |
-| **Hermes** | ![Version](https://img.shields.io/github/v/release/NousResearch/hermes-agent?label=&color=22c55e) | ![2天前](https://img.shields.io/static/v1?label=&message=2%E5%A4%A9%E5%89%8D&color=22c55e) | Nous Research | CLI | 开源 | [发布页](https://github.com/NousResearch/hermes-agent/releases) |
-| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?label=&color=22c55e&include_prereleases) | ![2天前](https://img.shields.io/static/v1?label=&message=2%E5%A4%A9%E5%89%8D&color=22c55e) | DeepSeek | CLI / Web | 开源 | [发布页](https://github.com/deepseek-ai/deepseek-harness/releases) |
-| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=22c55e) | ![5天前](https://img.shields.io/static/v1?label=&message=5%E5%A4%A9%E5%89%8D&color=22c55e) | Anomaly | CLI / Web | 开源 | [发布页](https://github.com/anomalyco/opencode/releases) |
-| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=22c55e) | ![1天前](https://img.shields.io/static/v1?label=&message=1%E5%A4%A9%E5%89%8D&color=22c55e) | Anthropic | CLI / IDE | 商业 / 订阅 | [发布页](https://github.com/anthropics/claude-code/releases) |
-| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=22c55e) | ![1天前](https://img.shields.io/static/v1?label=&message=1%E5%A4%A9%E5%89%8D&color=22c55e) | OpenAI | CLI / IDE | 开源客户端 / 订阅 | [发布页](https://github.com/openai/codex/releases) |
-| **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=22c55e) | ![4天前](https://img.shields.io/static/v1?label=&message=4%E5%A4%A9%E5%89%8D&color=22c55e) | Earendil Works | CLI | 开源 | [发布页](https://github.com/earendil-works/pi/releases) |
-| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=22c55e) | ![3天前](https://img.shields.io/static/v1?label=&message=3%E5%A4%A9%E5%89%8D&color=22c55e) | Google | CLI | 免费额度 + 开源 | [发布页](https://github.com/google-gemini/gemini-cli/releases) |
-| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=4ade80) | ![24h内](https://img.shields.io/static/v1?label=&message=24h%E5%86%85&color=4ade80) | 社区 | CLI | 开源 | [发布页](https://github.com/can1357/oh-my-pi/releases) |
+| **OpenClaw** | ![Version](https://img.shields.io/github/v/release/openclaw/openclaw?label=&color=2563eb) | ![3天前](https://img.shields.io/static/v1?label=&message=3%E5%A4%A9%E5%89%8D&color=22c55e) | 社区 | CLI / 聊天平台 | 开源 | [发布页](https://github.com/openclaw/openclaw/releases) |
+| **Hermes** | ![Version](https://img.shields.io/github/v/release/NousResearch/hermes-agent?label=&color=2563eb) | ![2天前](https://img.shields.io/static/v1?label=&message=2%E5%A4%A9%E5%89%8D&color=22c55e) | Nous Research | CLI | 开源 | [发布页](https://github.com/NousResearch/hermes-agent/releases) |
+| **DeepSeek Harness** | ![Version](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness?label=&color=2563eb&include_prereleases) | ![2天前](https://img.shields.io/static/v1?label=&message=2%E5%A4%A9%E5%89%8D&color=22c55e) | DeepSeek | CLI / Web | 开源 | [发布页](https://github.com/deepseek-ai/deepseek-harness/releases) |
+| **OpenCode** | ![Version](https://img.shields.io/github/v/release/anomalyco/opencode?label=&color=2563eb) | ![5天前](https://img.shields.io/static/v1?label=&message=5%E5%A4%A9%E5%89%8D&color=22c55e) | Anomaly | CLI / Web | 开源 | [发布页](https://github.com/anomalyco/opencode/releases) |
+| **Claude Code** | ![Version](https://img.shields.io/github/v/release/anthropics/claude-code?label=&color=2563eb) | ![1天前](https://img.shields.io/static/v1?label=&message=1%E5%A4%A9%E5%89%8D&color=22c55e) | Anthropic | CLI / IDE | 商业 / 订阅 | [发布页](https://github.com/anthropics/claude-code/releases) |
+| **Codex** | ![Version](https://img.shields.io/github/v/release/openai/codex?label=&color=2563eb) | ![1天前](https://img.shields.io/static/v1?label=&message=1%E5%A4%A9%E5%89%8D&color=22c55e) | OpenAI | CLI / IDE | 开源客户端 / 订阅 | [发布页](https://github.com/openai/codex/releases) |
+| **Pi** | ![Version](https://img.shields.io/github/v/release/earendil-works/pi?label=&color=2563eb) | ![4天前](https://img.shields.io/static/v1?label=&message=4%E5%A4%A9%E5%89%8D&color=22c55e) | Earendil Works | CLI | 开源 | [发布页](https://github.com/earendil-works/pi/releases) |
+| **Gemini CLI** | ![Version](https://img.shields.io/github/v/release/google-gemini/gemini-cli?label=&color=2563eb) | ![3天前](https://img.shields.io/static/v1?label=&message=3%E5%A4%A9%E5%89%8D&color=22c55e) | Google | CLI | 免费额度 + 开源 | [发布页](https://github.com/google-gemini/gemini-cli/releases) |
+| **Oh My Pi** | ![Version](https://img.shields.io/github/v/release/can1357/oh-my-pi?label=&color=2563eb) | ![24h内](https://img.shields.io/static/v1?label=&message=24h%E5%86%85&color=4ade80) | 社区 | CLI | 开源 | [发布页](https://github.com/can1357/oh-my-pi/releases) |
 | **Grok Build** | — | — | xAI | CLI | 开源 | [发布页](https://github.com/xai-org/grok-build/releases) |
-| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=14532d) | ![04-07](https://img.shields.io/static/v1?label=&message=04-07&color=14532d) | GitHub | IDE / CLI | 免费额度 + 订阅 | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) |
+| **GitHub Copilot** | ![Version](https://img.shields.io/github/v/release/microsoft/vscode-copilot-chat?label=&color=2563eb) | ![04-07](https://img.shields.io/static/v1?label=&message=04-07&color=14532d) | GitHub | IDE / CLI | 免费额度 + 订阅 | [发布页](https://github.com/microsoft/vscode-copilot-chat/releases) |
 
 ## 官方 Agent 工具
 
