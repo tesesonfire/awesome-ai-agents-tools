@@ -122,6 +122,7 @@ Platforms for coordinating multiple agents, orchestrating workflows, or visually
 - [Flowise](https://github.com/FlowiseAI/Flowise#readme) - A low-code tool for visually building AI agents and LLM applications. Platforms: Web, Self-hosted. Pricing: Free and open source; cloud service is paid. `[Web]` `[Free Tier]` `[Paid]` `[Open Source]`
 - [Langflow](https://github.com/langflow-ai/langflow#readme) - A visual platform for building and deploying AI agents and workflows. Platforms: Web, Self-hosted. Pricing: Free and open source. `[Web]` `[Free]` `[Open Source]`
 - [n8n](https://github.com/n8n-io/n8n#readme) - A visual workflow automation platform with native AI capabilities, combining LLM nodes with external services. Platforms: Web, Self-hosted. Pricing: Fair-code license; self-hosting is free, cloud service is paid. `[Web]` `[Free Tier]` `[Paid]` `[Open Source]`
+- [YYLO](https://github.com/yylo-dev/yylo#readme) - A command-line orchestrator for coding agents that runs each task in an isolated Git worktree behind typed validation, merge, and release-readiness boundaries. Platforms: CLI. Pricing: Free and open source; model usage billed by consumption. `[CLI]` `[Free]` `[Open Source]`
 
 ## Tools and Utilities
 

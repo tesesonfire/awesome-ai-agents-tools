@@ -122,6 +122,7 @@
 - [Flowise](https://github.com/FlowiseAI/Flowise#readme) - 可视化搭建 AI Agent 与 LLM 应用的低代码工具。平台：Web、自托管。价格：开源免费，云服务付费。 `[Web]` `[Free Tier]` `[Paid]` `[Open Source]`
 - [Langflow](https://github.com/langflow-ai/langflow#readme) - 用于构建和部署 AI Agent 与工作流的可视化平台。平台：Web、自托管。价格：开源免费。 `[Web]` `[Free]` `[Open Source]`
 - [n8n](https://github.com/n8n-io/n8n#readme) - 具备原生 AI 能力的可视化工作流自动化平台，可组合 LLM 节点与外部服务。平台：Web、自托管。价格：fair-code 许可，自托管免费，云服务付费。 `[Web]` `[Free Tier]` `[Paid]` `[Open Source]`
+- [YYLO](https://github.com/yylo-dev/yylo#readme) - 面向编码 Agent 的命令行编排器，在相互隔离的 Git 工作树中运行每个任务，并提供类型化的验证、合并与发布就绪边界。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 
 ## 工具与实用程序
 
