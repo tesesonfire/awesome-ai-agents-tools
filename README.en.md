@@ -123,6 +123,7 @@ Platforms for coordinating multiple agents, orchestrating workflows, or visually
 
 Supporting tools that supply agents with context, tool access, usage observability, and interface enhancements.
 
+- [Agent QA](https://github.com/vostride/agent-qa#readme) - Helps coding agents author, run, and triage natural-language web and mobile regression tests with execution memory. Platforms: CLI, MCP. Pricing: No package fee; configured model, browser, or device provider costs may apply. `[CLI]` `[MCP]`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - A community-maintained index of MCP servers. Platforms: MCP. Pricing: Free and open source. `[MCP]` `[Free]` `[Open Source]`
 - [ccusage](https://github.com/ccusage/ccusage#readme) - Analyzes token usage and cost for Claude Code and similar agents from local session data. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme) - A terminal dashboard that tracks Claude Code token consumption and remaining quota in real time. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`

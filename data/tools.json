@@ -1,7 +1,7 @@
 {
   "$comment": "Machine-readable index of the tools listed in README.md. Keep in sync when adding or updating entries.",
   "name": "awesome-ai-agents-tools",
-  "updated": "2026-09-19",
+  "updated": "2026-10-04",
   "tags": [
     "awesome-list",
     "awesome",
@@ -756,6 +756,21 @@
         "Paid"
       ],
       "open_source": true
+    },
+    {
+      "name": "Agent QA",
+      "category": "utilities",
+      "vendor": "Vostride",
+      "url": "https://github.com/vostride/agent-qa#readme",
+      "platforms": [
+        "CLI",
+        "MCP"
+      ],
+      "pricing": [
+        "No package fee; configured provider costs may apply"
+      ],
+      "open_source": false,
+      "license": "FSL-1.1-ALv2"
     },
     {
       "name": "Awesome MCP Servers",
