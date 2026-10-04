@@ -123,6 +123,7 @@
 
 为 Agent 提供上下文、工具接入、用量观测与界面增强的配套工具。
 
+- [Aident Loadout](https://aident.ai) - 面向 AI Agent 的远程 MCP，可接入 1,000+ 应用与 400+ Skills。平台：Web、CLI、MCP。价格：免费增值。 `[Web]` `[CLI]` `[MCP]` `[Free Tier]`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - 社区维护的 MCP 服务端索引。平台：MCP。价格：开源免费。 `[MCP]` `[Free]` `[Open Source]`
 - [ccusage](https://github.com/ccusage/ccusage#readme) - 从本地会话数据统计 Claude Code 等 Agent 的 Token 用量与费用。平台：CLI。价格：开源免费。 `[CLI]` `[Free]` `[Open Source]`
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme) - 实时监控 Claude Code Token 消耗与额度余量的终端面板。平台：CLI。价格：开源免费。 `[CLI]` `[Free]` `[Open Source]`

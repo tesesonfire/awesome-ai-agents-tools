@@ -123,6 +123,7 @@ Platforms for coordinating multiple agents, orchestrating workflows, or visually
 
 Supporting tools that supply agents with context, tool access, usage observability, and interface enhancements.
 
+- [Aident Loadout](https://aident.ai) - A remote MCP that connects AI agents to 1,000+ apps and 400+ Skills. Platforms: Web, CLI, MCP. Pricing: Freemium with a free tier. `[Web]` `[CLI]` `[MCP]` `[Free Tier]`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - A community-maintained index of MCP servers. Platforms: MCP. Pricing: Free and open source. `[MCP]` `[Free]` `[Open Source]`
 - [ccusage](https://github.com/ccusage/ccusage#readme) - Analyzes token usage and cost for Claude Code and similar agents from local session data. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme) - A terminal dashboard that tracks Claude Code token consumption and remaining quota in real time. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`
