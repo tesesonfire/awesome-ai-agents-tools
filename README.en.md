@@ -123,6 +123,7 @@ Platforms for coordinating multiple agents, orchestrating workflows, or visually
 
 Supporting tools that supply agents with context, tool access, usage observability, and interface enhancements.
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node#readme) - Local payment runtime for AI agents via CLI and stdio MCP; signing requires foreground owner approval. Platform: CLI, MCP (macOS Apple Silicon). Pricing: Free MIT software; network and third-party fees apply. `[CLI]` `[MCP]` `[Open Source]`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - A community-maintained index of MCP servers. Platforms: MCP. Pricing: Free and open source. `[MCP]` `[Free]` `[Open Source]`
 - [ccusage](https://github.com/ccusage/ccusage#readme) - Analyzes token usage and cost for Claude Code and similar agents from local session data. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme) - A terminal dashboard that tracks Claude Code token consumption and remaining quota in real time. Platforms: CLI. Pricing: Free and open source. `[CLI]` `[Free]` `[Open Source]`

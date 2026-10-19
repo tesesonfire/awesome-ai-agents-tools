@@ -123,6 +123,7 @@
 
 为 Agent 提供上下文、工具接入、用量观测与界面增强的配套工具。
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node#readme) - 面向 AI Agent 的本地支付运行时，提供 CLI 与 stdio MCP，签名需所有者在前台终端批准。平台：CLI、MCP（macOS Apple Silicon）。价格：MIT 开源免费，网络及第三方费用另计。 `[CLI]` `[MCP]` `[Open Source]`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - 社区维护的 MCP 服务端索引。平台：MCP。价格：开源免费。 `[MCP]` `[Free]` `[Open Source]`
 - [ccusage](https://github.com/ccusage/ccusage#readme) - 从本地会话数据统计 Claude Code 等 Agent 的 Token 用量与费用。平台：CLI。价格：开源免费。 `[CLI]` `[Free]` `[Open Source]`
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor#readme) - 实时监控 Claude Code Token 消耗与额度余量的终端面板。平台：CLI。价格：开源免费。 `[CLI]` `[Free]` `[Open Source]`
