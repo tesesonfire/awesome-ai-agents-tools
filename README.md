@@ -79,6 +79,7 @@
 - [OpenClaw](https://github.com/openclaw/openclaw#readme) - 开源个人 AI 助手，可接入各类聊天平台，并通过 Skill 扩展能力。平台：CLI、自托管。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [OpenCode](https://github.com/anomalyco/opencode#readme) - 开源编码 Agent，提供终端界面，并有 Web 等多种形态。平台：CLI、Web。价格：开源免费，模型按用量计费。 `[CLI]` `[Web]` `[Free]` `[Open Source]`
 - [OpenHands](https://github.com/OpenHands/OpenHands#readme) - 开源 AI 开发 Agent，可自主编写代码、执行命令、浏览网页并提交变更。平台：Web、CLI、云端。价格：开源免费，云端托管为付费服务。 `[Web]` `[CLI]` `[Free]` `[Paid]` `[Open Source]`
+- [Orbi](https://github.com/orbi-build/orbi#readme) - 从 GitHub Issue 驱动隔离实现，经独立验收评审后合并 PR 的开源编码 Agent。平台：CLI、自托管。价格：自托管免费，需自备模型凭证，模型费用另计。 `[CLI]` `[Free]` `[Open Source]`
 - [Pi](https://github.com/earendil-works/pi#readme) - 极简且可扩展的终端编码框架，支持树状会话结构与自定义模型提供商。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 - [Reasonix](https://github.com/esengine/DeepSeek-Reasonix#readme) - DeepSeek 原生的终端编码 Agent，围绕前缀缓存稳定性设计，原生支持 MCP。平台：CLI。价格：开源免费，模型按用量计费。 `[CLI]` `[Free]` `[Open Source]`
 
